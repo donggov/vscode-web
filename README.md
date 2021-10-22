@@ -2,9 +2,13 @@
 
 > 이 글은 vscode.dev을 사용하여 작성하였습니다.
 
-미국 기준으로 10월 20일에 [vscode web](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev)이 공개되었네요. 이제 vscode를 설치하지 않고 브라우저에서 vscode를 사용할 수 있습니다.
+미국 기준으로 10월 20일에 [vscode web](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev)이 공개되었네요.
+
+이제 vscode를 설치하지 않고 브라우저에서 vscode를 사용할 수 있습니다.
 
 [vscode.dev(!)](https://code.visualstudio.com/blogs/2021/10/20/vscode-dev) 포스트와 [VS Code for the Web: vscode.dev](https://youtu.be/sy3TUb_iVJM)를 보고 직접 사용해 보았습니다.
+
+*멋진 기능이 있거나 팁이 있으면 공유해주세요😄*
 
 ## 1. VSCODE 시작
 
@@ -14,6 +18,9 @@
 Github와 연동해서 바로 사용할 수 있다고 하네요. repository 생성 후, 주소 앞에 접두사로 "vscode.dev"를 붙이기만 하면 됩니다. Github 로그인을 요청하는데 로그인하면 repository을 불러옵니다.
 
 > 예) https://github.com/donggov/vscode-web -> https://vscode.dev/github.com/donggov/vscode-web
+
+URL 접속 말고 더 편하고 멋진 방법이 있네요. Github repository에서 `.`키를 누르면 바로 vscode로 바뀝니다.😎
+> 참고 : https://github.com/github/dev/blob/main/README.md
 
 vscode web은 terminal을 사용할 수 없다 보니, Git CLI를 사용할 수 없네요. 아쉬운 대로 vscode 내에 있는 `source control`을 사용하여 commit 하였습니다.
 
